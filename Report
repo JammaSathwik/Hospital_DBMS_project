@@ -1,0 +1,12 @@
+This is the report guys
+
+tables needed are
+
+Doctor table - docid,name,position,ssn,fees
+Patient table - patid,name,phone
+Appointment - aptid,patid,docid,date,slot
+Payments - slno,patid,docid,fees
+presc - docid,patid,medic,count
+medicines - medic,mname,cost
+
+//code for tha tables are below
