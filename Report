@@ -2,8 +2,8 @@ This is the report guys
 
 tables needed are
 
-Doctor table - docid,name,position,ssn,fees
-Patient table - patid,name,phone
+Doctor table - docid primary key,name,position,ssn,fees
+Patient table - patid primary key,name,phone
 Appointment - aptid,patid,docid,date,slot
 Payments - slno,patid,docid,fees
 presc - docid,patid,medic,count
